@@ -40,11 +40,12 @@ html {
 }
 
 body {
-     color: #666666;
+
      font-size: 14px;
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
+     color: #666666;
 }
 
 a {
@@ -70,8 +71,11 @@ h6 {
      padding: 0 0 10px 0;
      font-weight: normal;
      line-height: normal;
-     color: #111111;
+     font-color: #;
      margin: 0
+}
+carousel-item img {
+    height: 50%;
 }
 
 h1 {
@@ -155,11 +159,26 @@ a,
 
 img {
      max-width: 100%;
-     height: auto;
+     height: 50%;
+     opacity: 1.5;
+}
+video{
+     max-width: 100%;
+     height: 50%;
+     opacity: 1.5;
+}
+
+img:hover {
+  opacity: 1.0;
 }
 
  :focus {
      outline: 0;
+}
+video{
+     max-width: 100%;
+     height: 100%;
+     opacity: 1.5;
 }
 
 .btn-custom {
